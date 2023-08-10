@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+ font-family:  Roboto,sans-serif;
+}
+#navbar>a{
+text-decoration: none;
+margin: 2rem;
+
+}
+#notFound > img{
+  width: 100vh;
+  margin-top: 10vh;
+}
+/* PRODUCT CSS START */
+#product{
+  /* background-color:  rgb(255, 255, 255); */
+  background-color:rgb(24,94,73);
+/* background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%); */
+}
+
+#product img{
+  width: 100vh;
+  
+}
+ #product-item h1{
+  font-weight: bolder;
+  color: green
+
+}
+#product-item > h1+b{
+  color: rgb(218, 38, 38);
+  font-size: bolder;
+}
+#product-item{
+  background-color: rgb(255, 255, 255);
+ transition : all 0.5s ease-in-out;
+ /* box-shadow: rgb(85, 85, 82) 0px 5px 15px; */
+ border: 2px solid black;
+}
+#product-item:hover{
+  transform: scale(1.08);
+}
+
+#product-item > button{
+  background-color: rgb(40, 140, 110);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 5px;
+  width: 60%;
+  font-weight: bold;
+  color:white;
+}
+#product-item > button:hover{
+
+  background-color: rgb(243, 63, 47);
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+ font-weight: bolder;
+ margin-left: -20px;
+
+}
+
+.pagination button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin:10px ;
+}
+
+#sorting{
+display: flex;
+align-items: center;
+justify-content: space-between;
+ background-color: rgb(255, 255, 255);
+ /* box-shadow: rgba(255, 255, 255, 0.97) 0px 5px 15px; */
+ border: 2px solid black;
+ padding: 10px;
+ margin: 10px;
+ border-radius: 10px;
+}
+
+#sorting div {
+  display: flex;
+ align-items: center;
+
+}
+
+#sorting select{
+  background-color:rgb(24,94,73) ;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color:white;
+
+}
+#sorting b{
+  color: rgb(74, 70, 70);
+  margin-left: 10px;
+}
+#sorting button{
+  margin:10px 20px 0px 20px;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: rgb(24,94,73);
+  padding: 10px;
+  border-radius: 10px;
+  color:white;
+}
+
+#sorting button:hover{
+  background-color: rgb(243, 63, 47);
+}
+/* PRODUCT CSS END */
+/* PRODUCT DETAILS  CSS START*/
+
+#productDetails{
+  display: flex;
+  justify-content: space-around;
+  background-color: #84fb95;
+  background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%);
+}
+
+#productDetails > #left{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ border: 2px solid black;
+ border-radius: 10px;
+ margin: 10px;
+}
+
+#productDetails > #left>img{
+  width: 25vw;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+
+#productDetails > #right h1{
+  font-weight: bolder;
+  font-size: 50px;
+  color: green;
+  margin: 10px;
+}
+
+#productDetails > #right h1+b{
+  color: rgb(232, 58, 27);
+  margin: 20px;
+  font-size: 23px;
+
+}
+#productDetails > #right b{
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  font-size: 24px;
+  
+
+}
+
+#productDetails > #right > div button{
+  width: 24%;
+  margin: auto;
+  font-weight: bold;
+  background-color: rgb(255, 247, 0);
+  color: rgb(61, 58, 58);
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#productDetails > #right button:hover{
+background-color: rgb(242, 88, 71);
+}
+
+#aboutProduct{
+  width: 60%;
+  margin: auto;
+  
+}
+#aboutProduct h2{
+  margin: 20px;
+  font-weight: bolder;
+}
+#aboutProduct p{
+text-align: left;
+}
+/* PRODUCT DETAILS  CSS END*/
+/* thank You */
+
+#a3{
+  font-weight: bolder;
+}
+
+/* thank You */
+
+
+
